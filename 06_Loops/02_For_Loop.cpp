@@ -109,7 +109,18 @@ int main(int argc, char const* argv[]) {
                                                             // Index starts from 0. and 0 - 9 = 10; but i = 10 = false.
 
     // NOTE: We can do multiple things by using for loop.
-    
+
+
+   // Range based Foor Loop.
+    int arr2[]{3, 2, 3, 3};
+    // no "=" because I'm using braced initlization here.
+
+    // Range based For Loop.
+    // // We can also use range based for loop in C++. Like this.
+    for (auto value : arr2) {
+        // It'll update the "value" on each iteration of element of array.
+        std::cout << value << std::endl;
+    }
 
     return 0;
 }
