@@ -1,5 +1,4 @@
 #include <iostream>
-#include <new>
 
 int main(int argc, char const* argv[]) {
     std::cout << "New Fails" << std::endl;
